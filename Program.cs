@@ -114,7 +114,42 @@ namespace dotnetcore
             porcentagemTaxa /   100
             */
 
+            /*
             var valorConta = 45.35;
+            var porcentagemTaxa = 10;
+
+            var valorTaxa = valorConta * porcentagemTaxa / 100;
+
+            var valorTotal = valorConta + valorTaxa;
+
+            // Resultado de 45.35 + 10% deve dar: 49.885
+
+            Console.WriteLine($"Valor da conta foi de R{valorConta:C}."); // Currency
+            Console.WriteLine($"A taxa do garçom foi de R{valorTaxa:C}.");
+            Console.WriteLine($"A conta ficou no total de R{valorTotal:C}.");
+            */
+
+            // Exemplo 6
+
+            /*
+            Console.WriteLine("Escreva um número de 0 a 10:");
+
+            var numeroDigitado = Console.ReadLine();
+
+            var numero = int.Parse(numeroDigitado);
+
+            Console.WriteLine($"Você digitou o número {numero}.");
+            Console.WriteLine($"{numero} + {10} = {numero + 10}");
+            */
+
+            // Exemplo 7
+            
+            Console.WriteLine("Quanto foi a conta:");
+
+            var valorContaString = Console.ReadLine();
+
+            var valorConta = double.Parse(valorContaString);
+
             var porcentagemTaxa = 10;
 
             var valorTaxa = valorConta * porcentagemTaxa / 100;
